@@ -1,0 +1,64 @@
+site_name: 2341 Wiki
+site_description: Internal knowledge base for the 2341 campus store team
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+  palette:
+    - scheme: default
+      primary: teal
+      accent: cyan
+    - scheme: slate
+      primary: teal
+      accent: cyan
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+nav:
+  - Home: index.md
+  - Opening & Closing Procedures:
+      - Overview: opening-closing/overview.md
+      - Opening Procedures: opening-closing/opening-procedures.md
+      - Closing Procedures: opening-closing/closing-procedures.md
+  - Scheduling & Timecards:
+      - Overview: scheduling-timecards/overview.md
+      - Scheduling: scheduling-timecards/scheduling.md
+      - Timecards: scheduling-timecards/timecards.md
+  - Training & Onboarding:
+      - Overview: training-onboarding/overview.md
+      - New Hire Checklist: training-onboarding/new-hire-checklist.md
+  - Customer Support:
+      - Overview: customer-support/overview.md
+      - VA/FA Issues: customer-support/va-fa-issues.md
+      - Escalations: customer-support/escalations.md
+  - Merchandising & Inventory:
+      - Overview: merchandising-inventory/overview.md
+      - Apparel: merchandising-inventory/apparel.md
+      - Tech Products: merchandising-inventory/tech-products.md
+      - Receiving: merchandising-inventory/receiving.md
+  - Events & Sales:
+      - Overview: events-sales/overview.md
+      - Campus Events: events-sales/campus-events.md
+  - Store Management:
+      - Overview: store-management/overview.md
+      - Management Tasks: store-management/management-tasks.md
+
+markdown_extensions:
+  - admonition
+  - toc
+  - def_list
+  - tables
+  - attr_list
+  - md_in_html
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.emoji
+  - pymdownx.tasklist:
+      custom_checkbox: true
