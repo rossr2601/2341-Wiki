@@ -1,4 +1,4 @@
-name: Publish docs via GitHub Pages
+name: Deploy MkDocs site to GitHub Pages
 
 on:
   push:
@@ -6,17 +6,31 @@ on:
       - main
 
 jobs:
-  build:
-    name: Deploy docs
+  deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout main branch
-        uses: actions/checkout@v2
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Deploy docs to GitHub Pages
-        uses: mhausenblas/mkdocs-deploy-gh-pages@master
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          publish_dir: site
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CONFIG_FILE: mkdocs.yml
+          python-version: 3.x
+
+      - name: Install MkDocs
+        run: pip install mkdocs mkdocs-material
+
+      - name: Build MkDocs site
+        run: mkdocs build
+
+      - name: Deploy to gh-pages
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git fetch origin
+          git checkout gh-pages || git checkout --orphan gh-pages
+          git rm -rf .
+          cp -r site/* .
+          git add .
+          git commit -m "Deploy site from main" || echo "No changes to commit"
+          git push origin gh-pages --force
