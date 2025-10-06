@@ -1,5 +1,8 @@
 site_name: 2341 Wiki
-site_description: Internal knowledge base for the 2341 campus store team
+site_description: 'Internal knowledge base for the 2341 campus store team'
+docs_dir: docs/
+repo_name: 'rossr2601/2341-Wiki'
+repo_url: 'https://github.com/rossr2601/2341-Wiki'
 theme:
   name: material
   features:
@@ -22,31 +25,19 @@ theme:
 nav:
   - Home: index.md
   - Opening & Closing Procedures:
-      - Overview: opening-closing/overview.md
-      - Opening Procedures: opening-closing/opening-procedures.md
-      - Closing Procedures: opening-closing/closing-procedures.md
+      - Overview: opening-and-closing/placeholder.md
   - Scheduling & Timecards:
-      - Overview: scheduling-timecards/overview.md
-      - Scheduling: scheduling-timecards/scheduling.md
-      - Timecards: scheduling-timecards/timecards.md
+      - Overview: scheduling-and-timecards/placeholder.md
   - Training & Onboarding:
-      - Overview: training-onboarding/overview.md
-      - New Hire Checklist: training-onboarding/new-hire-checklist.md
+      - Overview: training-and-onboarding/placeholder.md
   - Customer Support:
-      - Overview: customer-support/overview.md
-      - VA/FA Issues: customer-support/va-fa-issues.md
-      - Escalations: customer-support/escalations.md
+      - Overview: customer-support/placeholder.md
   - Merchandising & Inventory:
-      - Overview: merchandising-inventory/overview.md
-      - Apparel: merchandising-inventory/apparel.md
-      - Tech Products: merchandising-inventory/tech-products.md
-      - Receiving: merchandising-inventory/receiving.md
+      - Overview: merchandising-and-inventory/placeholder.md
   - Events & Sales:
-      - Overview: events-sales/overview.md
-      - Campus Events: events-sales/campus-events.md
+      - Overview: events-and-sales/placeholder.md
   - Store Management:
-      - Overview: store-management/overview.md
-      - Management Tasks: store-management/management-tasks.md
+      - Overview: store-management/placeholder.md
 
 markdown_extensions:
   - admonition
