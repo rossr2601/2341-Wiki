@@ -25,7 +25,7 @@ theme:
 nav:
   - Home: index.md
   - Opening & Closing Procedures:
-      - Overview: docs/Opening and Closing/placeholder.md
+      - Overview: Opening and Closing/placeholder.md
   - Scheduling & Timecards:
       - Overview: docs/Scheduling and Timecards/placeholder.md
   - Training & Onboarding:
