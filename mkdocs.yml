@@ -27,17 +27,17 @@ nav:
   - Opening & Closing Procedures:
       - Overview: Opening and Closing/placeholder.md
   - Scheduling & Timecards:
-      - Overview: docs/Scheduling and Timecards/placeholder.md
+      - Overview: Scheduling and Timecards/placeholder.md
   - Training & Onboarding:
-      - Overview: docs/Training and Onboarding/placeholder.md
+      - Overview: Training and Onboarding/placeholder.md
   - Customer Support:
-      - Overview: docs/Customer Support/placeholder.md
+      - Overview: Customer Support/placeholder.md
   - Merchandising & Inventory:
-      - Overview: docs/Merchandising and Inventory/placeholder.md
+      - Overview: Merchandising and Inventory/placeholder.md
   - Events & Sales:
-      - Overview: docs/Events and Sales/placeholder.md
+      - Overview: Events and Sales/placeholder.md
   - Store Management:
-      - Overview: docs/Store Management/placeholder.md
+      - Overview: Store Management/placeholder.md
 
 markdown_extensions:
   - admonition
