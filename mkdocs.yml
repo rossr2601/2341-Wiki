@@ -22,6 +22,21 @@ theme:
     text: Roboto
     code: Roboto Mono
 
+markdown_extensions:
+  - admonition
+  - toc
+  - def_list
+  - tables
+  - attr_list
+  - md_in_html
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.emoji
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
 nav:
 - Home: index.md
 - Opening & Closing Procedures:
@@ -38,19 +53,3 @@ nav:
   - Overview: events-and-sales/placeholder.md
 - Store Management:
   - Overview: store-management/placeholder.md
-
-
-markdown_extensions:
-  - admonition
-  - toc
-  - def_list
-  - tables
-  - attr_list
-  - md_in_html
-  - footnotes
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.highlight
-  - pymdownx.emoji
-  - pymdownx.tasklist:
-      custom_checkbox: true
