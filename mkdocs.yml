@@ -23,21 +23,21 @@ theme:
     code: Roboto Mono
 
 nav:
-  - Home: docs/index.md
+ - Home: ../docs/index.md
   - Opening & Closing Procedures:
-      - Overview: docs/Opening_and_Closing/placeholder.md
+      - Overview: ../docs/Opening and Closing/placeholder.md
   - Scheduling & Timecards:
-      - Overview: docs/Scheduling_and_Timecards/placeholder.md
+      - Overview: ../docs/Scheduling and Timecards/placeholder.md
   - Training & Onboarding:
-      - Overview: docs/Training_and_Onboarding/placeholder.md
+      - Overview: ../docs/Training and Onboarding/placeholder.md
   - Customer Support:
-      - Overview: docs/Customer_Support/placeholder.md
+      - Overview: ../docs/Customer Support/placeholder.md
   - Merchandising & Inventory:
-      - Overview: docs/Merchandising_and_Inventory/placeholder.md
+      - Overview: ../docs/Merchandising and Inventory/placeholder.md
   - Events & Sales:
-      - Overview: docs/Events_and_Sales/placeholder.md
+      - Overview: ../docs/Events and Sales/placeholder.md
   - Store Management:
-      - Overview: docs/Store_Management/placeholder.md
+      - Overview: ../docs/Store Management/placeholder.md
 
 markdown_extensions:
   - admonition
