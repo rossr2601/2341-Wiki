@@ -1,0 +1,44 @@
+site_name: MkLorum
+site_description: 'Internal knowledge base for the 2341 campus store team'
+docs_dir: docs/
+repo_name: 'rossr2601/2341-Wiki'
+repo_url: 'https://github.com/rossr2601/2341-Wiki'
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+    - toc.follow
+  theme:
+    scheme: default
+    palette:
+      primary: blue
+    font:
+      text: Roboto
+      code: Roboto Mono
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - def_list
+  - tables
+  - attr_list
+  - md_in_html
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.emoji
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - Home: index.md
+  - About: about.md
